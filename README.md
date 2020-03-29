@@ -1,5 +1,4 @@
 # Share Eat with Node.js and ReactJS
-Share Eat application builded with Node.js and ReactJS 
 
 ## About
 This application was developed in ReactJS to simulate an web page where you can add available dishes in a predeterminated list os restaurants
