@@ -15,17 +15,17 @@ You don't have to worry with the database as this aplication uses a sqlite datab
 ## Important Packages Used
 
 ### Backend
-*Express (Node frameworkd)
-*Sequelize (ORM)
-*Sqlite 3 (Database)
-*Yup (Form-validation)
+* Express (Node framework)
+* Sequelize (ORM)
+* Sqlite 3 (Database)
+* Yup (Form-validation)
 
 ### Frontend
-*Styled-Components (CSS)
-*Axios (API requests)
-*React-Router-Dom and History (Navigation)
-*React-Hook-Form (Form-validation)
-*React-Icons (Icons)
+* Styled-Components (CSS)
+* Axios (API requests)
+* React-Router-Dom and History (Navigation)
+* React-Hook-Form (Form-validation)
+* React-Icons (Icons)
 
 
 
