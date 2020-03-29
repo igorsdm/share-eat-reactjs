@@ -39,7 +39,10 @@ export default function Home() {
               onClick={() => history.push(`/restaurante/${place.idPlace}`)}
             >
               <strong>{place.name}</strong>
-              <span>{place.pratos} pratos</span>
+              <span>
+                {place.pratos ? place.pratos : 0}{' '}
+                {place.pratos === 1 ? 'Prato' : 'Pratos'}
+              </span>
             </DadosRestaurante>
             <ButtonAdd size="36px" hist={`/prato/${place.idPlace}`} />
           </li>
