@@ -48,7 +48,7 @@ export default function Restaurante(props) {
         <h1>{place.name}</h1>
         <span>
           {pratos ? pratos.length : 0}{' '}
-          {pratos.length === 1 ? 'Prato' : 'Pratos'}
+          {pratos && pratos.length === 1 ? 'Prato' : 'Pratos'}
         </span>
       </Title>
       <ListaPratos>
