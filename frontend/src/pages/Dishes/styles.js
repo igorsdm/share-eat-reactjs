@@ -63,9 +63,8 @@ export const NomeGroup = styled.div`
   flex-direction: column;
   align-items: flex-start;
   margin-bottom: 16px;
-  }
 
-  span{
+  span {
     margin-bottom: -10px;
   }
 

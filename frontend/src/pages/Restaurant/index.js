@@ -15,7 +15,7 @@ import {
   HeaderDadosPratos,
 } from './styles';
 
-export default function Restaurante(props) {
+export default function Restaurant(props) {
   const [pratos, setPratos] = useState([]);
   const [place, setPlace] = useState([]);
   const { idPlace } = props.match.params;
@@ -53,7 +53,7 @@ export default function Restaurante(props) {
       </Title>
       <ListaPratos>
         {pratos ? (
-          pratos.map(prato => (
+          pratos.map((prato) => (
             <li key={prato.id_prato}>
               <DadosPratos>
                 <HeaderDadosPratos>

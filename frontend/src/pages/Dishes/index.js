@@ -19,7 +19,7 @@ import {
   ButtonDiv,
 } from './styles';
 
-export default function Prato(props) {
+export default function Dishes(props) {
   const { register, handleSubmit, errors, reset } = useForm();
   const { idPlace } = props.match.params;
 
@@ -33,15 +33,15 @@ export default function Prato(props) {
     loadPlace();
   }, [idPlace]);
 
-  const onSubmit = data => {
+  const onSubmit = (data) => {
     api
       .post(`/dishes/${idPlace}/add`, {
         data,
       })
-      .then(res => {
+      .then((res) => {
         alert(res.data);
       })
-      .catch(error => {
+      .catch((error) => {
         alert(error.response.data);
       });
     reset();

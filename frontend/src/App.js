@@ -8,7 +8,6 @@ import history from './services/history';
 function App() {
   return (
     <Router history={history}>
-      {/* <Header /> */}
       <Routes />
       <GlobalStyle />
     </Router>
